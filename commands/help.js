@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
     .addField("**-ban**", "This can be run by a Server Staff Member")
     .addField("**-kick**", "This can be run by a Server Staff Member")
     .addField("**-mute**", "This can be run by a Server Staff Member")
-    .addField("**-new**", "This can be ran by a Server Member")
+    .addField("**-new**", "Coming Soon!")
     .addField("**!restart**", "This can be run by the Prep Bot Services Owner");
 
   message.channel.send(banEmbed);
