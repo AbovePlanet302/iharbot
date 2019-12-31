@@ -36,5 +36,5 @@ exports.help = {
   name: "ban",
   category: "Miscellaneous",
   description: "A standard issue example command.",
-  usage: ".ban"
+  usage: "-ban"
 };
