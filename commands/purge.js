@@ -6,3 +6,17 @@ module.exports.run = async (bot, message, args) => {
     message.channel.send(`Cleared ${args[0]} messages.`).then(msg => msg.delete(5000));
   });
 }
+
+exports.conf = {
+  enabled: false,
+  guildOnly: false,
+  aliases: [],
+  permLevel: "Guild Moderator"
+};
+
+exports.help = {
+  name: "purge",
+  category: "Miscellaneous",
+  description: "A standard issue example command.",
+  usage: "-purge"
+};
